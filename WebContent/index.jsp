@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-hi 
+hi this from openshift
 
 </body>
 </html>
