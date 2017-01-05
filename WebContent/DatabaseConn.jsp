@@ -13,7 +13,7 @@
 
 
 Class.forName("com.mysql.jdbc.Driver"); 
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://172.30.179.195:3306/sampledb","admin","root"); 
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://mysql-1-m4bp8:3306/sampledb","admin","root"); 
 Statement st= con.createStatement(); 
 ResultSet rs=st.executeQuery("select * from users"); 
 while(rs.next())
